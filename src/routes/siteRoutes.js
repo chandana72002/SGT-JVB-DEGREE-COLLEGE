@@ -1,0 +1,17 @@
+export const siteRoutes = [
+  { path: '/', label: 'Home' },
+  { path: '/about', label: 'About College' },
+  { path: '/vision-mission', label: 'Vision & Mission' },
+  { path: '/departments', label: 'Departments' },
+  { path: '/courses', label: 'Courses' },
+  { path: '/faculty', label: 'Faculty' },
+  { path: '/admissions', label: 'Admissions' },
+  { path: '/facilities', label: 'Facilities' },
+  { path: '/events', label: 'Events' },
+  { path: '/gallery', label: 'Gallery' },
+  { path: '/placements', label: 'Placements' },
+  { path: '/achievements', label: 'Achievements' },
+  { path: '/testimonials', label: 'Testimonials' },
+  { path: '/anti-ragging', label: 'Anti-Ragging' },
+  { path: '/contact', label: 'Contact' },
+];

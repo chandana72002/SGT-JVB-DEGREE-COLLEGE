@@ -1,0 +1,50 @@
+import { openSourceImages } from './openSourceImages';
+
+export const facultyMembers = [
+  {
+    id: 1,
+    name: 'B. SUBBARAO',
+    role: 'Principal',
+    department: 'Administration',
+    qualification: 'Senior Academic Leader',
+    bio: 'Guiding the institution with a focus on academic discipline, student development, and quality higher education.',
+    featured: true,
+    image: openSourceImages.facultyGuidance,
+  },
+  {
+    id: 2,
+    name: 'Faculty Member 01',
+    role: 'Assistant Professor',
+    department: 'Commerce',
+    qualification: 'Editable Placeholder',
+    bio: 'Sample faculty profile content that can be updated later with real staff information.',
+    image: openSourceImages.classroom,
+  },
+  {
+    id: 3,
+    name: 'Faculty Member 02',
+    role: 'Assistant Professor',
+    department: 'Computer Science',
+    qualification: 'Editable Placeholder',
+    bio: 'Sample faculty profile content that can be updated later with real staff information.',
+    image: openSourceImages.computerLab,
+  },
+  {
+    id: 4,
+    name: 'Faculty Member 03',
+    role: 'Lecturer',
+    department: 'Mathematics',
+    qualification: 'Editable Placeholder',
+    bio: 'Sample faculty profile content that can be updated later with real staff information.',
+    image: openSourceImages.classroomTechnology,
+  },
+  {
+    id: 5,
+    name: 'Faculty Member 04',
+    role: 'Lecturer',
+    department: 'English',
+    qualification: 'Editable Placeholder',
+    bio: 'Sample faculty profile content that can be updated later with real staff information.',
+    image: openSourceImages.seminarRoom,
+  },
+];
